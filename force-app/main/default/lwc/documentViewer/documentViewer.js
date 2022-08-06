@@ -35,4 +35,7 @@ export default class CreatePDF extends LightningElement {
     link.click();
   }
 
+  handlePDF(){
+    window.print();
+}
 }
